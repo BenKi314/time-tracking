@@ -1,0 +1,183 @@
+    body{
+    display:flex;
+    flex-direction:column;
+    background-color:hsl(226, 43%, 10%);
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    max-height:100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content{
+    /* min-height:85vh; */
+    min-width:63vw;
+    max-width:63vw;
+    /* border-style:solid;
+    border-width:10px;
+    border-color:aqua; */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+/* Report card */
+
+.report-card{
+    height:31vw;
+    min-width:15vw;
+    background-color:hsl(235, 46%, 20%);
+    display:flex;
+    flex-direction:column;
+    border-radius:1rem;
+    overflow:hidden;
+}
+
+.name-card{
+    background-color:hsl(246, 80%, 60%);
+    min-height:67%;
+    min-width:100%;
+    border-radius:1rem;
+}
+
+.name-card-inner{
+    margin-left:2rem;
+    margin-top:2rem;
+}
+
+.pfpcircle{
+    background-color:white;
+    border-radius:100%;
+    width:7rem;
+    height:7rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:2rem;
+}
+
+.jeremy{
+    width:95%;
+}
+
+.selections{
+    margin-left:2rem;
+    margin-top:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+
+.selection{
+    font-family:"Rubik";
+    font-weight:400;
+    font-size:1.125rem;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    color:rgba(255, 255, 255, 0.658);
+}
+
+.selection:hover{
+    color:white;
+    font-weight:500;
+}
+
+/* make them change colour on hover */
+
+.smol{
+    font-family:"Rubik";
+    font-weight:300;
+    margin-bottom:0;
+}
+
+.beeg{
+    margin:0;
+    font-family:"Rubik";
+    font-weight:300;
+    font-size:3rem;
+}
+
+.med{
+    font-family:"Rubik";
+    font-weight:500;
+    font-size:1.125rem;
+}
+
+#whiteText{
+    color:white;
+}
+
+
+
+.spacer{
+    min-width:1vw;
+    min-height:1vw;
+}
+
+/* Cards */
+
+.cards{
+    max-height:85vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    /* background-color:rgba(137, 43, 226, 0.308) */
+}
+
+.top-cards{
+    min-height:15vw;
+    display:flex;
+    flex-direction:row;
+
+}
+
+.card{
+    min-width:15vw;
+    min-height:15vw;
+    display:flex;
+    flex-direction:column-reverse;
+    border-radius:1rem;
+    overflow:hidden;
+}
+
+.card-bottom{
+    min-width:15vw;
+    min-height:12vw;
+    background-color:#1c1f4a;
+    border-radius:1rem;
+}
+
+.bottom-cards{
+    min-height:15vw;
+    display:flex;
+    flex-direction:row;
+    
+}
+
+/* IDs for backgrounds */
+
+#work{
+    background:linear-gradient(180deg, hsl(15, 100%, 70%) 0%, hsl(15, 100%, 70%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#play{
+    background:linear-gradient(180deg, hsl(195, 74%, 62%) 0%, hsl(195, 74%, 62%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#study{
+    background:linear-gradient(180deg, hsl(348, 100%, 68%) 0%, hsl(348, 100%, 68%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#exercise{
+    background:linear-gradient(180deg, hsl(145, 58%, 55%) 0%, hsl(145, 58%, 55%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#social{
+    background:linear-gradient(180deg, hsl(264, 64%, 52%) 0%, hsl(264, 64%, 52%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#selfcare{
+    background:linear-gradient(180deg, hsl(43, 84%, 65%) 0%, hsl(43, 84%, 65%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
